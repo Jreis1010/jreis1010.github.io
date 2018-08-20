@@ -1,0 +1,63 @@
+
+.main-section {
+    max-width: 960px;
+}
+
+header > .container{
+ margin-right: unset;
+}
+
+
+navbar {
+    display: inline-block;
+    border-block-end: 2px;
+    
+}
+ .container-fluid {
+     padding-top: 60px;
+ }
+
+.col {
+    width: 50%;
+
+}
+
+.col.bio {
+    margin-top:7%;
+}
+
+.col.bio > p {
+
+    text-align: center;
+    display: inline-block;
+
+}
+
+h1,h3 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 290%;
+}
+body { 
+    background-image: url('../Basic-Portfolio/assets/images/hypnotize.png');
+}
+
+footer {
+        position:fixed;
+        bottom:0;
+        width:100%;
+        height:25px;  
+        background:whitesmoke;
+        font-size: small;
+
+}
+
+img.rounded-circle {
+    position: center;
+    background-origin: border-box;
+}
+
+.jumbotron {
+    background: rgba(66, 66, 66, 0.1);
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
